@@ -1,12 +1,4 @@
-.display-table {
-  display: table;
-  width: 100%;
-  height: 100%;
+.centered[class*="col-"] {
   margin: 0 auto;
-}
-
-.display-table > * {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  float: none;
 }
